@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Jasa Bongkar Kantor, Reinstatement, Layanan Bongkar Kantor, Profesional, Jakarta" />
+    <meta
+      name="description"
+      content="Jasa Bongkar Kantor - Jakarta. Layanan profesional dalam membongkar dan merapikan kantor Anda. Menyediakan solusi terbaik untuk kebutuhan bongkar kantor, dengan tim berpengalaman dan komitmen pada kepuasan pelanggan."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/KOP.png" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6f20f10859.js" crossorigin="anonymous"></script>
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alkatra&family=Lobster&family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alkatra&family=Pacifico&display=swap" rel="stylesheet" />
+    <title>Jasa Bongkar Kantor - Jakarta</title>
+  </head>
+
+  <body>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <header>
+      <div class="logo"></div>
+      <nav>
+        <a href="#tentang-kami">Tentang Kami</a>
+        <a href="#visi-misi">Visi Misi</a>
+        <a href="#galery">Galery</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <div class="jumbotron" id="jumbotron-text">
+      <h1>Jasa Bongkar Kantor / Reinstatement</h1>
+      <p id="jumbotron-caption">Pelayanan Profesional dalam Membongkar dan Merapikan Kantor Anda</p>
+    </div>
+
+    <div class="container">
+      <section class="tentang-kami" id="tentang-kami">
+        <h2>Tentang Kami</h2>
+        <p>Berlian Teknik Nusantara adalah perusahaan yang menyediakan layanan profesional dalam membongkar dan merapikan kantor Anda. Dengan tim yang berpengalaman, kami siap memberikan solusi terbaik untuk kebutuhan Anda.</p>
+        <a href="#">Whatsapp <i class="fas fa-arrow-right"></i></a>
+      </section>
+
+      <section class="visi-misi" id="visi-misi">
+        <h2>Visi dan Misi</h2>
+        <p><i class="fas fa-pencil-alt"></i><strong> Visi:</strong> Menjadi mitra terpercaya dalam menyediakan layanan bongkar kantor yang efisien dan berkualitas.</p>
+        <p><i class="fas fa-check-circle"></i><strong> Misi:</strong> Memberikan pelayanan terbaik dengan prioritas kepuasan pelanggan, menjaga profesionalisme, dan berkomitmen pada keberlanjutan lingkungan.</p>
+      </section>
+
+      <section class="galery" id="galery">
+        <h2>Galery</h2>
+        <p>Kami bangga telah menyelesaikan berbagai projek bongkar kantor untuk klien-klien kami. Setiap projek merupakan cerminan dedikasi kami dalam memberikan layanan terbaik.</p>
+        <div class="gambar-projek">
+          <div class="gambar">
+            <p>Sebelum</p>
+            <img src="img/before-1.jpeg" alt="Before 1" />
+            <img src="img/before-2.jpeg" alt="Before 1" />
+            <img src="img/before-3.jpeg" alt="Before 1" />
+          </div>
+          <div class="gambar">
+            <p>Sesudah</p>
+            <img src="img/after-1.jpg" alt="After 1" />
+            <img src="img/after-2.jpg" alt="After 1" />
+            <img src="img/after-3.jpg" alt="After 1" />
+          </div>
+          <!-- Tambahkan gambar sebelum dan sesudah sesuai kebutuhan -->
+        </div>
+      </section>
+
+      <section class="kontak" id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Untuk informasi lebih lanjut atau konsultasi, hubungi kami melalui:</p>
+        <ul>
+          <li><i class="fas fa-envelope"></i> info@jasabongkarkantor.com</li>
+          <li><i class="fas fa-phone"></i> (021) 1234-5678</li>
+        </ul>
+      </section>
+
+      <section class="hubungi-kami">
+        <h2>Hubungi Kami</h2>
+        <form id="form-hubungi-kami" action="" method="post">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" required />
+
+          <label for="no_wa">No WA</label>
+          <input type="text" id="no_wa" name="no_wa" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+          <button type="submit" onclick="kirimPesan()">Kirim Pesan</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="media-sosial">
+          <h3>Ikuti Kami:</h3>
+          <ul>
+            <li>
+              <a href=""><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="alamat">
+          <h3>Alamat Kami:</h3>
+          <p>Jl. Contoh No. 123, Jakarta</p>
+        </div>
+
+        <div class="google-maps">
+          <h3>Temukan Kami di Peta:</h3>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+    <script>
+      // Fungsi untuk jumbotron
+      var jumbotronText = document.getElementById("jumbotron-text");
+      var jumbotronCaption = document.getElementById("jumbotron-caption");
+      var backgrounds = ['url("img/Before-3.jpeg")', 'url("img/Before-2.jpeg")', 'url("img/After-1.jpg")', 'url("img/After-2.jpg")'];
+      var captions = ["Pelayanan Profesional dalam Membongkar dan Merapikan Kantor Anda", "Solusi Terbaik untuk Kebutuhan Bongkar Kantor Anda", "Dedikasi Kami untuk Layanan Terbaik dalam Setiap Projek"];
+      let currentIndex = 0;
+
+      function changeBackground() {
+        jumbotronText.style.backgroundImage = backgrounds[currentIndex];
+        jumbotronCaption.textContent = captions[currentIndex];
+        currentIndex = (currentIndex + 1) % backgrounds.length;
+      }
+
+      setInterval(changeBackground, 5000);
+
+      // Menyimpan referensi ke tombol scroll to top
+      var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+      // Menambahkan event listener untuk mendeteksi pergerakan scroll
+      window.addEventListener("scroll", function () {
+        // Menentukan tinggi dari elemen jumbotron (misalnya 70vh)
+        var jumbotronHeight = document.getElementById("jumbotron-text").offsetHeight;
+
+        // Menentukan posisi scroll saat ini
+        var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+        // Menentukan kapan tombol harus muncul atau menghilang
+        if (scrollPosition > jumbotronHeight) {
+          scrollToTopBtn.style.transform = "Scale(1)";
+        } else {
+          scrollToTopBtn.style.transform = "Scale(0)";
+        }
+      });
+      // Fungsi untuk melakukan scroll ke bagian paling atas halaman
+      function scrollToTop() {
+        document.body.scrollTop = 0; // Untuk Safari
+        document.documentElement.scrollTop = 0; // Untuk Chrome, Firefox, IE, dan Opera
+      }
+      // Fungsi untuk menutup popup
+      function closePopup() {
+        document.querySelector(".popup").style.display = "none";
+      }
+
+      // Fungsi untuk mengirim pesan
+      function kirimPesan() {
+        // Membuat objek FormData
+        var formData = new FormData();
+
+        // Mengumpulkan data formulir
+        var nama = document.getElementById("nama").value;
+        var no_wa = document.getElementById("no_wa").value;
+        var email = document.getElementById("email").value;
+        var pesan = document.getElementById("pesan").value;
+
+        // Mengisi objek FormData dengan data formulir
+        formData.append("nama", nama);
+        formData.append("no_wa", no_wa);
+        formData.append("email", email);
+        formData.append("pesan", pesan);
+
+        // Membuat objek XMLHttpRequest
+        var xhr = new XMLHttpRequest();
+
+        // Menentukan jenis permintaan dan URL tujuan
+        xhr.open("POST", "pesan.php", true);
+
+        // Mengatur callback yang akan dipanggil setelah permintaan berhasil
+        xhr.onload = function () {
+          if (xhr.status == 200) {
+            var response = JSON.parse(xhr.responseText);
+            if (response.status === "success") {
+              // Tampilkan popup atau pesan sukses di sini
+              var popup = document.getElementById("popup");
+
+              if (popup) {
+                popup.style.display = "flex";
+                // Hilangkan popup setelah beberapa detik
+                setTimeout(function () {
+                  popup.style.display = "none";
+                }, 3000);
+              } else {
+                console.error("Elemen popup tidak ditemukan.");
+              }
+            } else {
+              // Tampilkan pesan kesalahan di sini
+              alert("Terjadi kesalahan: " + response.pesan);
+            }
+          } else {
+            // Tampilkan pesan kesalahan di sini
+            alert("Terjadi kesalahan saat mengirim permintaan.");
+          }
+        };
+
+        // Mengirim data formulir menggunakan permintaan POST
+        xhr.send(formData);
+      }
+    </script>
+  </body>
+</html>
